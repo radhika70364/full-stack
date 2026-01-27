@@ -1,0 +1,45 @@
+/* Reset default spacing */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 320px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(142, 174, 13, 0.192);
+  text-align: center;
+  color: #000;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #1d02027c;
+  margin: 6px 0;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
