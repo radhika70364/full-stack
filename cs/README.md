@@ -17,4 +17,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## project Screenshot
 
-![alt text](src/image2.png)
+![alt text](src/image2.jpeg)
