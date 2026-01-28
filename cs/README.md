@@ -17,4 +17,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## project Screenshot
 
-![Project Screenshot](screenshot\image.png)
+![Project Screenshot](screenshot/image.png)
