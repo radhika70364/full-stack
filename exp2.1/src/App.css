@@ -1,0 +1,26 @@
+/* Styling for the Profile Image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover;
+  
+  /* Applying the animation */
+  animation: pulse 3s infinite ease-in-out;
+}
+
+/* Simple Keyframe Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 5px rgba(0, 123, 255, 0.2);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.4);
+  }
+}
