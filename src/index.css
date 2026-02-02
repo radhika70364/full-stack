@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  cursor: pointer;
+  color: #61dafb;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #61dafb;
+}
+
+/* PAGE */
+.page {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* PROFILE CARD */
+.profile-card {
+  background: white;
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;     /* keeps image properly cropped */
+  border-radius: 8px;    /* slight rounding (set 0 for sharp square) */
+  margin-bottom: 15px;
+}
+
+.primary-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #61dafb;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.resume-btn {
+  padding: 10px 18px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.resume-btn:hover {
+  background-color: #61dafb;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* DASHBOARD */
+.section-title {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
