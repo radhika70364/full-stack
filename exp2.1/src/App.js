@@ -2,12 +2,12 @@ import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 import profilePic from './me.jpeg';
-function App() {
+function App()  {
   const student = {
     name: "Radhika Singla",
     id: "23BAI70364",
     major: "Computer Science",
-    bio: "Passionate about web development",
+    bio: "Passionate about Web development",
     profilePic: profilePic,
   };
 

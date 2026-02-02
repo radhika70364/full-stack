@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Button, TextField, Card, CardContent } from "@mui/material";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Profile from "./pages/Profile";
+import Dashboard from "./pages/Dashboard";
 
 const membershipPlans = [
   {
@@ -19,7 +22,7 @@ const membershipPlans = [
   },
 ];
 
-function App() {
+function Home() {
   const [joinedPlans, setJoinedPlans] = useState([]);
 
   const joinPlan = (plan) => {
@@ -30,12 +33,6 @@ function App() {
 
   return (
     <div>
-      {/* Navbar */}
-      <nav className="navbar navbar-dark bg-black px-4">
-        <span className="navbar-brand">FitZone Gym</span>
-      </nav>
-
-      {/* Login Section */}
       <div className="container mt-4">
         <h2 className="mb-3">Member Login</h2>
         <TextField
@@ -48,7 +45,6 @@ function App() {
         </Button>
       </div>
 
-      {/* Membership Plans */}
       <div className="container mt-5">
         <h2>Membership Plans</h2>
         <div className="row">
@@ -72,7 +68,6 @@ function App() {
         </div>
       </div>
 
-      {/* Joined Memberships */}
       <div className="container mt-5">
         <h2>My Memberships</h2>
         <ul className="list-group">
@@ -89,7 +84,6 @@ function App() {
         </ul>
       </div>
 
-      {/* Feedback */}
       <div className="container mt-5 mb-5">
         <h2>Workout Feedback</h2>
         <TextField
@@ -103,6 +97,29 @@ function App() {
         </Button>
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <nav className="navbar navbar-dark bg-black px-4">
+        <span className="navbar-brand me-3">FitZone Gym</span>
+        <div className="d-flex gap-2">
+          <Link className="btn btn-sm btn-outline-light" to="/">Home</Link>
+          <Link className="btn btn-sm btn-outline-light" to="/profile">Profile</Link>
+          <Link className="btn btn-sm btn-outline-light" to="/dashboard">Dashboard</Link>
+        </div>
+      </nav>
+
+      <div className="container mt-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
