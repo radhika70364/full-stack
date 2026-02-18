@@ -1,0 +1,28 @@
+/* Circular Images & Animation */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  animation: pulse-animation 3s infinite ease-in-out;
+  display: block;
+}
+
+/* Pulse Keyframes */
+@keyframes pulse-animation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+/* Card Hover effect */
+.card {
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
