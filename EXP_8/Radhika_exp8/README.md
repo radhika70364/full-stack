@@ -70,3 +70,4 @@ The app runs on:
 ### Screenshot 2 (image2)
 
 ![Screenshot 2](./try/image2.png)
+<img width="1919" height="641" alt="image" src="https://github.com/user-attachments/assets/6d76df5b-755e-4102-96a0-3294592102d3" />
