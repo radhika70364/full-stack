@@ -62,12 +62,6 @@ The app runs on:
 `http://localhost:8080`
 
 ## Screenshots
+<img width="1869" height="714" alt="image" src="https://github.com/user-attachments/assets/a2a19256-2a0b-433f-ae55-0c82c3cb48bd" />
 
-### Screenshot 1 (image)
-
-![Screenshot 1](./try/image.png)
-
-### Screenshot 2 (image2)
-
-![Screenshot 2](./try/image2.png)
 <img width="1919" height="641" alt="image" src="https://github.com/user-attachments/assets/6d76df5b-755e-4102-96a0-3294592102d3" />
