@@ -91,5 +91,6 @@ Hello! JWT Authentication Successful
 
 This project demonstrates secure authentication using JWT in a Spring Boot application.
 
-![WorkingScreenchot](get.png)
-![WorkingScreenchot](image.png)
+<img width="1554" height="865" alt="image" src="https://github.com/user-attachments/assets/7d31e735-b9b2-4a17-aaa3-f90abe79fb57" />
+
+<img width="1584" height="931" alt="image" src="https://github.com/user-attachments/assets/c83a9f74-8ce5-4290-9bc9-6db05533dd26" />
