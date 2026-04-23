@@ -1,6 +1,6 @@
-# 🌐 LibreChat — Enterprise WebSocket Workspace
+# 🌐 ConvoSphere - Online Chat Enterprise Websocket
 
-LibreChat is a high-performance, professional real-time communication platform built on a modern full-stack architecture. It leverages **Spring Boot (Java 17)** and **React + Vite** to deliver a seamless, low-latency experience for team collaboration.
+ConvoSphere is a high-performance, professional real-time communication platform built on a modern full-stack architecture. It leverages **Spring Boot (Java 17)** and **React + Vite** to deliver a seamless, low-latency experience for team collaboration.
 
 ---
 
@@ -29,21 +29,16 @@ LibreChat is a high-performance, professional real-time communication platform b
 
 ## 📸 Visual Walkthrough
 
-<p align="center">
-  <img src="frontend/public/image1.png" width="45%" alt="Join Screen" />
-  <img src="frontend/public/image2.png" width="45%" alt="Chat Interface" />
-</p>
-<p align="center">
-  <img src="frontend/public/image3.png" width="45%" alt="Dark Mode" />
-  <img src="frontend/public/image4.png" width="45%" alt="Mobile View" />
-</p>
+<img width="1891" height="1016" alt="Screenshot 2026-04-24 015056" src="https://github.com/user-attachments/assets/28587699-6e97-43f9-95ec-4c2b33050624" />
+
+<img width="1895" height="1011" alt="Screenshot 2026-04-24 015213" src="https://github.com/user-attachments/assets/4747d65c-b5ec-45ef-9bcd-1ee7fc6d6f0e" />
 
 ---
 
 ## 📂 Project Architecture
 
 ```
-LibreChat/
+ConvoSphere/
 ├── Websocketdev/          ← Spring Boot Backend (Java 17)
 │   ├── pom.xml            ← Dependency Management
 │   └── src/main/java/...  ← WebSocket & Message Logic
@@ -95,8 +90,8 @@ npm run dev
 
 ## 🤝 Support & Contribution
 
-LibreChat is designed for extensibility. Feel free to explore the code, add new channels, or integrate persistent storage (PostgreSQL/MongoDB) for message history.
+ConvoSphere is designed for extensibility. Feel free to explore the code, add new channels, or integrate persistent storage (PostgreSQL/MongoDB) for message history.
 
 ---
 
-*Built with ❤️ by the LibreChat Team*
+*Built with ❤️ by the ConvoSphere Team*
